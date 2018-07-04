@@ -45,4 +45,21 @@ Border
 
 ```
 
+### Align div center
+
+```
+
+```
+
+### Specificity
+
+```
+>> #ID selectors have a higher specificity than attribute selectors
+>> !important overrides any other declarations 
+>> more specific will take priority
+>> last style will take priority
+```
+
+
+
 
