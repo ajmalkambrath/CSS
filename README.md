@@ -59,7 +59,7 @@ Border
 >> more specific will take priority
 >> last style will take priority
 ```
-
+```
 <div class="relative">
   <div class="h-2 bg-gradient-to-r from-green-400 via-yellow-400 to-red-400"></div>
   <div class="absolute -top-1 left-[20%] w-max flex flex-col justify-center items-center text-center">
@@ -69,7 +69,7 @@ Border
     </div>
   </div>
 </div>
-
+```
 const riskLevels = [
     { level: 1, color: 'from-green-400', text: 'Low' },
     { level: 2, color: 'via-yellow-400', text: 'Medium' },
