@@ -60,6 +60,24 @@ Border
 >> last style will take priority
 ```
 
+<div class="relative">
+  <div class="h-2 bg-gradient-to-r from-green-400 via-yellow-400 to-red-400"></div>
+  <div class="absolute -top-1 left-[20%] w-max flex flex-col justify-center items-center text-center">
+     <div class="h-[20px] w-[10px] cursor-pointer rounded-full bg-green-500 shadow-lg"></div>
+    <div class="mt-1">
+      <label class="text-sm font-semibold">Low</label>
+    </div>
+  </div>
+</div>
 
+const riskLevels = [
+    { level: 1, color: 'from-green-400', text: 'Low' },
+    { level: 2, color: 'via-yellow-400', text: 'Medium' },
+    { level: 3, color: 'to-red-400', text: 'Strong' },
+    { level: 4, color: 'to-red-400', text: 'Danger' },
+  ];
 
+  const riskData = riskLevels.find((data) => data.level === currentRiskLevel);
+
+  
 
